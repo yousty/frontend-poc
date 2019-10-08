@@ -1,0 +1,29 @@
+{
+  "name": "next-proving-grounds",
+  "version": "1.0.0",
+  "description": "Proving grounds for static and server side next app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "test": "jest"
+  },
+  "keywords": [
+    "proof of concept"
+  ],
+  "author": "Adam Szwaba",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.8",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-is": "^16.10.2",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "jest": "^24.9.0"
+  }
+}
